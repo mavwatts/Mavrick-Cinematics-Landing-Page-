@@ -191,6 +191,11 @@ header > h2 {
     color: red;
 }
 
+
+
+
+/* Media Queries Section Below  */
+
 @media(max-width: 798px){
     .showcase,
     .showcase header {
