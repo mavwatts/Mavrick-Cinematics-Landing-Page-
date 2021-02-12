@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='style.css'/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Mavrick Cinematics</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Hero video section -->
     <section class="showcase">
-        <header>
-            <h2 class="logo"><img src='images/mavrick_cinematics_icon.png'><span id='red-mavrick'>MAVRICK</span>      Cinematics</h2>
-            
-            <div class="toggle">
-            </div>
-        </header>
-        <video src="video/Mavrick_Cinematics_Drone_shot_compressed.mp4" muted loop autoplay></video> 
+      <header>
+        <h2 class="logo">
+          <a href="index.html"
+            ><img src="images/mavrick_cinematics_icon.png" /></a
+          ><span id="red-mavrick">MAVRICK</span>Cinematics
+        </h2>
 
-        <div class="overlay"></div>
-
-        <div class="text">
-            <h2>Your Stories</h2>
-            <h3>Told Cinematically</h3>
-
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, voluptas at facilis dignissimos rem dolores!</p>
-            <a href='#'>Explore</a>
+        <div class="toggle">
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about.html">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        
+      </header>
+      <video
+        src="video/Mavrick_Cinematics_Drone_shot_compressed.mp4"
+        muted
+        loop
+        autoplay
+      ></video>
 
-     <ul class="social">
-            <li><a href="https://www.facebook.com/MavrickCinematics"><img src="images/facebook_icon_small.png" alt="Facebook"></a></li>
-            <li><a href="https://www.instagram.com/mavrickcinematics/"><img src="images/instagram_small.png" alt="Instagram"></a></li>
-            <li><a href='#'><img src="images/twitter_icon_small.png" alt="Twitter"></a></li>
-        </ul> 
+      <div class="overlay"></div>
 
+      <div class="text">
+        <h2>Your Stories</h2>
+        <h3>Told Cinematically</h3>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,
+          voluptas at facilis dignissimos rem dolores!
+        </p>
+        <a href="#">Explore</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/MavrickCinematics"
+            ><img src="images/facebook_icon_small.png" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/mavrickcinematics/"
+            ><img src="images/instagram_small.png" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/twitter_icon_small.png" alt="Twitter"
+          /></a>
+        </li>
+      </ul>
     </section>
 
-    <div class="menu">
-        <ul>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>Portfolio</a></li>
-            <li><a href='#'>Pricing</a></li>
-            <li><a href='contact.html'>Contact</a></li>
-        </ul>
+    <div class="about_mavrick_cinematics">
+      <p>Hello</p>
     </div>
 
+    <!-- Contact section  -->
+    <section>
+        <div class="contact-section">
+          <h1>CONTACT US</h1>
+          <div class='border'></div>
+          <form class='contact-form' action="index.html" method="post">
+              <input type='text' class='contact-form-text' placeholder="Your name">
+              <input type='email' class='contact-form-text' placeholder="Your email">
+              <input type='text' class='contact-form-text' placeholder="Your phone number">
+              <textarea class='contact-form-text' placeholder="Enter your message here"></textarea>
+              <input type="submit" class='contact-form-btn' value='Send'>
+          </form>
+        </div>
 
-    <script src='main.js'></script>
-    
-</body>
+        <!-- Footer Section -->
+        <div class="footer">
+            <div class="footer-content">
+                <h3><span id='red-mavrick'>Mavrick</span> Cinematics</h3>
+              <p> Your stories told cinematically.</p>
+              <ul class="socials">
+                  <li><a href="https://www.facebook.com/MavrickCinematics"><i class='fa fa-facebook'></i></a></li>
+                  <li><a href="#"><i class='fa fa-twitter'></i></a></li>
+                  <li><a href="#"><i class='fa fa-youtube'></i></a></li>
+                  <li><a href="https://www.instagram.com/mavrickcinematics/"><i class='fa fa-instagram'></i></a></li>
+                  <li><a href="#"><i class='fa fa-google-plus'></i></a></li>
+              </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &#169;2021 Mavrick Cinematics. Designed by Mavrick Watts</p>
+            </div>
+        </div>
+  </section>
+
+    <script src="main.js"></script>
+  </body>
 </html>
